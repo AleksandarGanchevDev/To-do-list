@@ -46,7 +46,7 @@ function App() {
         onChange={(event) => setInputValue(event.target.value)}
         onKeyDown={handleKeyDown}
       />
-      <button className="addBtn" onClick={handleClick}></button> 
+      <button className="addBtn" onClick={handleClick}>+</button> 
     </div>
   );
 }
